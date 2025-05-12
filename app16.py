@@ -216,7 +216,7 @@ elif mode == "Manuelle":
     annual_goals = st.text_area("Liste des objectifs annuels (un par ligne)").split("\n")
     annual_goals = [g.strip() for g in annual_goals if g.strip()]
 
-    st.subheader("Relations Objectifs stratégiques ↔ Objectifs annuels")
+    st.subheader("Relations Objectifs stratégiques <-> Objectifs annuels")
     strat_annual_matrix = {}
     for strat_goal in strategic_goals:
         strat_annual_matrix[strat_goal] = {}
@@ -232,7 +232,7 @@ elif mode == "Manuelle":
     improvement_priorities = st.text_area("Liste des priorités (une par ligne)").split("\n")
     improvement_priorities = [p.strip() for p in improvement_priorities if p.strip()]
 
-    st.subheader("Relations Objectifs annuels ↔ Priorités")
+    st.subheader("Relations Objectifs annuels <-> Priorités")
     annual_priority_matrix = {}
     for goal in annual_goals:
         annual_priority_matrix[goal] = {}
@@ -247,7 +247,7 @@ elif mode == "Manuelle":
     kpis = st.text_area("Liste des KPIs (un par ligne)").split("\n")
     kpis = [k.strip() for k in kpis if k.strip()]
 
-    st.subheader("Relations Priorités ↔ KPIs")
+    st.subheader("Relations Priorités <-> KPIs")
     priority_kpi_matrix = {}
     for priority in improvement_priorities:
         priority_kpi_matrix[priority] = {}
@@ -262,7 +262,7 @@ elif mode == "Manuelle":
     responsables = st.text_area("Liste des responsables (un par ligne)").split("\n")
     responsables = [r.strip() for r in responsables if r.strip()]
 
-    st.subheader("Relations Priorités ↔ Responsables")
+    st.subheader("Relations Priorités <-> Responsables")
     priority_responsible_matrix = {}
     for priority in improvement_priorities:
         priority_responsible_matrix[priority] = {}
