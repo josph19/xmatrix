@@ -220,7 +220,7 @@ elif mode == "Manual":
         for ann_goal in annual_goals:
             relation = st.selectbox(
                 f"Relation between strategic '{strat_goal}' and annual '{ann_goal}'",
-                ["", "O (Primary)", "X (Secondary)"],
+                ["", "O", "X"],
                 key=f"strat_{strat_goal}_{ann_goal}"
             )
             strat_annual_matrix[strat_goal][ann_goal] = relation.split()[0] if relation else ""
