@@ -1,0 +1,47 @@
+Objective startegic : 
+Augmenter les effectifs du département C de 50% en 5 ans 
+
+Objectif annuel :
+— Augmenter les effectifs du département C de 10% 
+— Réduire le taux de rotation du personnel à 5%
+
+Priority d’améliorations:
+— Introduire une enquête de satisfaction des employés
+— Se rapprocher du benchmark de rémunération du secteur 
+— Travailler avec une agence de chasseurs de têtes
+
+Kpi’s: 
+— Score de satisfaction des employés → KPI pour l’enquête
+— Écart de rémunération sectorielle → KPI pour le benchmark
+— Un 3e KPI pourrait mesurer les résultats du recrutement 
+
+Responsables :
+— John : primaire (O) pour l’enquête, secondaire (X) pour le benchmark
+— Kim : primaire (O) pour le benchmark 
+— Akito : primaire (O) pour le recrutement
+
+============
+https://xmatrix-xcw9djaxuvurh5shcdke5m.streamlit.app
+
+============
+Strategic Objective:
+Increase the workforce of Department C by 50% in 5 years
+
+Annual Objective:
+— Increase the staffing level in Department C by 10%
+— Reduce staff turnover to 5%
+
+Improvement Priorities:
+— Introduce an employee satisfaction survey
+— Align with industry compensation benchmarks
+— Work with a headhunting agency
+
+KPIs:
+— Employee satisfaction score → KPI for the survey
+— Industry pay gap → KPI for the benchmark
+— A third KPI could measure recruitment results
+
+Managers:
+— John: Primary (O) for the survey, Secondary (X) for the benchmark
+— Kim: Primary (O) for the benchmark
+— Akito: Primary (O) for recruitment
